@@ -1,0 +1,204 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: roboto;
+}
+
+/* CRIAR CABEÇALHO: */
+.header {
+  background-color: #57a1ea;
+  padding: 50px;
+  text-align: center;
+}
+header img {
+ width:50%;
+ height: auto;
+}
+
+
+/*CRIAR BARRA DE NAVEGAÇÃO:*/
+ul {
+  list-style-type: none; /*remove os marcadores de lista*/
+  overflow: hidden; /*oculta o conteúdo que ultrapasse os limites do elemento*/
+  background-color: #a6d2f2;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+     background-color: #57a1ea;
+}
+
+/* CRIAR CONTEÚDO INICIAL: */
+.conteudoinicial {
+  width: 100%;
+  height: 400px;
+  padding: 80px;
+  background-color: #75bbf0;
+}
+
+.textoinicial {
+ padding:30px; 
+ margin: 0px 20px 0px 20px;
+ text-align: center;
+}
+
+/*CRIAR QUADRADOS*/
+.container1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #75bbf0;
+}
+
+.quadrado1 {
+    display: flex;
+    justify-content: center;
+}
+
+.caixa1 {
+    width: 220px;
+    height: 220px;
+    background-color: #1E90FF;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.quadrado1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*CRIAR QUADRADO*/
+.container2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #97b6ce;
+  height: 200px;
+}
+
+.caixa2 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+
+.caixa2 img {
+  width: 60px;
+  height: auto;
+}
+.caixa2 h1 {
+  font-size: 60px;
+}
+
+/*CRIAR RECURSOS DO JOGO*/
+.container {
+  display: flex;
+  justify-content: space-between; /* Alinha as imagens com espaçamento igual entre elas */
+  flex-wrap: wrap; /* Quebra para a próxima linha quando não há espaço suficiente */
+}
+
+.recursos {
+  background-color: #454596;
+}
+.caixa {
+  width: 400px;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: whitesmoke;
+}
+
+.caixa img {
+  width: 380px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+/*CRIAR VÍDEO*/
+.video {
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+
+/*CRIAR RODAPÉ*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #97b6ce;
+    padding: 20px;
+    list-style-type: none;
+}
+
+.logo {
+    max-width: 100%;
+    display: inline; 
+    height: auto;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.urlsites img {
+    width: 40px;
+    height: auto;
+    margin-right: 20px; /* Ajuste o valor para definir o espaçamento desejado entre as imagens */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
